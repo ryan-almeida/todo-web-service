@@ -1,0 +1,4 @@
+- Save the index.html file locally
+- You can either deploy this into an S3 bucket + Cloudfront on on AWS, on an EC2 instance on AWS, or simply locally in your web browser 
+- Replace <YOUR_API_GATEWAY_URL> with the Invoke URL from API Gateway.
+- Ensure that your security settings in API Gateway allow incoming traffing from the corresponding IP adrress, or URL (you can also keep it open, although technically that is not a security best practice)
